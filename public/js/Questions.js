@@ -73,7 +73,6 @@ IncorrectState.prototype.askIt = function () {
         $.get( "/error", function( data ) {
             window.location.href = data;
         });
-        window.location.href = "/error"
         return
     }
 
