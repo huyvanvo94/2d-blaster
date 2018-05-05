@@ -1,0 +1,52 @@
+<html>
+<!-- Third Parties -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script type="text/javascript" src="../js/phaser.js"></script>
+
+<!-- End -->
+
+<!-- Begin -->
+
+<script type="text/javascript" src="../js/Command.js"></script>
+<script type="text/javascript" src="../js/CompositeController.js"></script>
+<script type="text/javascript" src="../js/ScreenStateController.js"></script>
+<script type="text/javascript" src="../js/Boot.js"></script>
+<!-- Important load levels here! -->
+<script type="text/javascript" src="../js/Batman.js"></script>
+<script type="text/javascript" src="../js/Queen.js"></script>
+<script type="text/javascript" src="../js/FairyLevel.js"></script>
+
+<!-- End load levels! -->
+<script type="text/javascript" src="../js/Questions.js"></script>
+<script type="text/javascript" src="../js/MainMenu.js"></script>
+<script type="text/javascript" src="../js/Preloader.js"></script>
+<script type="text/javascript" src="../js/GamePartsFactory.js"></script>
+<script type="text/javascript" src="../js/Game.js"></script>
+
+
+
+
+<!-- End -->
+
+<!-- Main -->
+<script>
+
+    $(function () {
+        var game = new GameProxy();
+        game.start('Boot');
+    });
+</script>
+<body >
+
+
+
+
+</body>
+</html>
