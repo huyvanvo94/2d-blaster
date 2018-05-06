@@ -1,6 +1,6 @@
 /*
- * author: Mangesh Tak 
- * description: Proxy Design Pattern 
+ * @author: Huy Vo
+ * @description: Proxy Design Pattern 
  */
 function GameProxy() {
 
