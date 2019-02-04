@@ -45,7 +45,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 5002));
 
 app.listen(app.get('port'), function() {
     console.log('Node app is running on port', app.get('port'));
