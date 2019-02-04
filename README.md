@@ -1,4 +1,7 @@
-# JS GAME
+# 2d-blaster 
+
+A game using the Phaser framework. I made three levels. 
+
 
 Website: 
 
