@@ -1,3 +1,7 @@
 # JS GAME
 
-http://boringpeople.herokuapp.com/
+Website: 
+
+http://huyvanvo94.me:5002
+
+The password: 123 
